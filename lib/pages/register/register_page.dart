@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:neta/pages/register/register_bloc.dart';
-import 'package:neta/styles/default_colors.dart';
-import 'package:neta/styles/default_styles.dart';
-import 'package:neta/utils/link_route.dart';
+import 'package:flutshare/pages/register/register_bloc.dart';
+import 'package:flutshare/styles/default_colors.dart';
+import 'package:flutshare/styles/default_styles.dart';
+import 'package:flutshare/utils/link_route.dart';
 
 class RegisterPage extends StatefulWidget {
   @override
