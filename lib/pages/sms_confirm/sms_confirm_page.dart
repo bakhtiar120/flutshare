@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:neta/pages/sms_confirm/sms_confirm_bloc.dart';
-import 'package:neta/pages/tab/tab_page.dart';
-import 'package:neta/styles/default_colors.dart';
-import 'package:neta/styles/default_styles.dart';
-import 'package:neta/utils/link_route.dart';
-import 'package:neta/utils/local_storage.dart';
+import 'package:flutshare/pages/sms_confirm/sms_confirm_bloc.dart';
+import 'package:flutshare/pages/tab/tab_page.dart';
+import 'package:flutshare/styles/default_colors.dart';
+import 'package:flutshare/styles/default_styles.dart';
+import 'package:flutshare/utils/link_route.dart';
+import 'package:flutshare/utils/local_storage.dart';
 
 class SmsPage extends StatefulWidget {
   final String phoneNumber;
