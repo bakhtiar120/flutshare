@@ -6,4 +6,5 @@ class LinkRoute {
   static String TabPage = "/TabPage";
   static String NewsWebview = "/NewsWebview";
   static String PostEventPage = "/PostEventPage";
+  static String ChatScreen = "/ChatScreen";
 }

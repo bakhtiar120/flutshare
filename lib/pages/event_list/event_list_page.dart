@@ -52,6 +52,7 @@ class _ListEventState extends State<EventListEvent> {
       floatingActionButton: FloatingActionButton(
         onPressed: this.showPostEvent,
         child: Icon(Icons.add),
+        backgroundColor: DefaultColors.primaryColor,
       ),
     );
   }

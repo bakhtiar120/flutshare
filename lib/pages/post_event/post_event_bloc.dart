@@ -40,14 +40,12 @@ class PostEventBloc {
     // await db.
 
     Firestore.instance.runTransaction((transaction) async {
-      await transaction
-          .set(Firestore.instance.collection("chat_room").document(), {
-        'reply': {
-          'replyName': "hehe",
-          'replyText': "heheheee",
-          'replyVotes': "hekehkjehee",
-        }
-      });
+      final CollectionReference postsRef = db.collection('/chat_room');
+      var postID = 1;
+      Post post = new Post( postID, "title", "content");
+      
+      postsRef.document(postID.toString()).setData({"is": "isss"});
+
       // print(test);
       // await db.collection("chat_room").add({'documentID' : 'test123'});
     });
@@ -56,4 +54,12 @@ class PostEventBloc {
   void dispose() {
     postEventController.close();
   }
+}
+
+class Post {
+  int postID;
+  String title;
+  String content;
+
+  Post(this.postID, this.title, this.content);
 }

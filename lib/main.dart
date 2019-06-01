@@ -1,3 +1,4 @@
+import 'package:flutshare/pages/chat_page/ChatScreen.dart';
 import 'package:flutshare/pages/first_page/first_page.dart';
 import 'package:flutshare/pages/login/login_page.dart';
 import 'package:flutshare/pages/post_event/post_event_page.dart';
@@ -61,6 +62,10 @@ class MyApp extends StatelessWidget {
 
       else if (settings.name == LinkRoute.PostEventPage) {
         return new SlideEffectDuration(widget: new PostEvent());
+      }
+
+      else if(settings.name == LinkRoute.ChatScreen) {
+        return new SlideEffectDuration(widget: new CharScreen());
       }   
     },
     );

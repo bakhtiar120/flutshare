@@ -1,3 +1,5 @@
+import 'package:flutshare/pages/chat_list/chat_list_page.dart';
+import 'package:flutshare/pages/chat_page/ChatScreen.dart';
 import 'package:flutshare/pages/event_list/event_list_page.dart';
 import 'package:flutshare/pages/home/home_page.dart';
 import 'package:flutter/material.dart';
@@ -23,7 +25,9 @@ class _TabPageState extends State<TabPage> with SingleTickerProviderStateMixin {
     // new ListEvent(),
     // Container(color: DefaultColors.primaryColor),
     new EventListEvent(),
-    Container(color: DefaultColors.primaryColor),
+    // Container(color: DefaultColors.primaryColor),
+    // new CharScreen(),
+    new ChatList(),
     Container(color: DefaultColors.primaryColor)
   ];
 

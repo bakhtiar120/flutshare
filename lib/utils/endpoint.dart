@@ -8,7 +8,8 @@ class EndPoint {
 
   static String newsApiKey = "85ba499e96e8437ca2458ca6f483bdaf";
   static String newsApiHttp = "https://newsapi.org/v2/";
-  static String newsApiHttpTopHeadLinesUsa = newsApiHttp + "top-headlines?apiKey="+newsApiKey+"&country=us";
+  // static String newsApiHttpTopHeadLinesUsa = newsApiHttp + "top-headlines?apiKey="+newsApiKey+"&country=us";
+  static String newsApiHttpTopHeadLinesUsa = "https://newsapi.org/v2/everything?q=flutter&sortBy=publishedAt&apiKey=85ba499e96e8437ca2458ca6f483bdaf";
   static String newsApiHttpTopHeadLinesID = newsApiHttp + "top-headlines?apiKey="+newsApiKey+"&country=id";
 
   String getNewsApiHttpTopByCountry(String idState) {
