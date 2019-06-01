@@ -1,6 +1,6 @@
 import 'dart:async';
-import 'package:neta/model/response.dart';
-import 'package:neta/utils/app_constant.dart';
+import 'package:flutshare/model/response.dart';
+import 'package:flutshare/utils/app_constant.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class RegisterBloc {
