@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:neta/model/response.dart';
+import 'package:flutshare/model/response.dart';
 
 class SmsConfirmBloc {
   StreamController<Response> controller = StreamController();
