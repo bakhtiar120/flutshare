@@ -92,7 +92,7 @@ class _ListEventState extends State<EventListEvent> {
                 child: new Text('Ok',
                     style: TextStyle(color: DefaultColors.primaryColor)),
                 onPressed: () {
-                  
+                  Navigator.of(context).pop();                  
                 },
               ),
               new FlatButton(

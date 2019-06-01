@@ -188,8 +188,8 @@ class _PostEvetnState extends State<PostEvent> {
     postEventValue.pic = picController.text;
     postEventValue.deskripsi = deskController.text;
     print(postEventValue.name);
-    // postEventBloc.newPostEvent(postEventValue);
-    postEventBloc.createGroup();
+    postEventBloc.newPostEvent(postEventValue);
+    // postEventBloc.createGroup();
   }
 }
 
