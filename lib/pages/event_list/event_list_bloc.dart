@@ -34,7 +34,8 @@ class ListEventBloc {
     resp.data = reff;
     listEventController.sink.add(resp);
   }
-
+  
+  // dispose from all controller on this
   void dispose() {
     listEventController.close();
   }
